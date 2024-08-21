@@ -41,7 +41,6 @@ hrm_aqtech
 │   │   └───views
 │   │       ├───employee_details
 │   │       └───home
-│   │           └───widgets
 │   └───time_off_management
 │       ├───controllers
 │       ├───models
