@@ -17,39 +17,43 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Folder structure
 hrm_aqtech
-├─ lib
-│  ├─ app.dart
-│  ├─ common
-│  ├─ features
-│  │  └─ authentication
-│  │     ├─ controllers
-│  │     │  └─ onboarding_controller.dart
-│  │     ├─ models
-│  │     └─ views
-│  │        ├─ login
-│  │        │  └─ login_screen.dart
-│  │        └─ onboarding
-│  │           ├─ onboarding_screen.dart
-│  │           └─ widgets
-│  │              ├─ onboarding_dot_navigation.dart
-│  │              ├─ onboarding_next.dart
-│  │              ├─ onboarding_page.dart
-│  │              └─ onboarding_skip.dart
-│  ├─ main.dart
-│  └─ utils
-│     ├─ constants
-│     │  ├─ colors.dart
-│     │  ├─ image_paths.dart
-│     │  ├─ sizes.dart
-│     │  └─ texts.dart
-│     ├─ devices
-│     │  └─ device_utils.dart
-│     └─ themes
-│        ├─ custom_themes
-│        │  ├─ app_bar_theme.dart
-│        │  ├─ elevated_button_theme.dart
-│        │  ├─ text_button_theme.dart
-│        │  ├─ text_field_theme.dart
-│        │  └─ text_theme.dart
-│        └─ theme.dart
-
+├───common
+│   ├───styles
+│   └───widgets
+│       ├───appbar
+│       ├───button
+│       ├───images
+│       └───layouts
+├───data
+│   ├───employees
+│   └───time_off
+├───features
+│   ├───authentication
+│   │   ├───controllers
+│   │   └───views
+│   │       ├───login
+│   │       │   └───widgets
+│   │       └───onboarding
+│   │           └───widgets
+│   ├───employee_management
+│   │   ├───controllers
+│   │   ├───models
+│   │   └───views
+│   │       ├───employee_details
+│   │       └───home
+│   │           └───widgets
+│   └───time_off_management
+│       ├───controllers
+│       ├───models
+│       └───views
+│           ├───general_time_off
+│           │   ├───create_general_time_off.dart
+│           │   └───widgets
+│           └───general_time_off_detail
+└───utils
+    ├───constants
+    ├───devices
+    ├───helpers
+    ├───http
+    └───themes
+        └───custom_themes
